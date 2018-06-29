@@ -1,0 +1,18 @@
+- go to:
+    url: https://observ.nu/auth/realms/observ/protocol/openid-connect/registrations?client_id=webapp&response_mode=fragment&response_type=code&scope=openid&redirect_uri=/
+
+- set:
+    firstname: 'pratika'
+    lastname: 'bhanu'
+    emailobserv: 'pratikabhanu@gmail.com'
+    phonenumber: '8709197962'
+    linkedinurl: 'abc'
+    findus: 'linkedin'
+    role:
+    companyname: 'abcd'
+    passwordobserv: 'pratikabhanu@123'
+    confirmpasswordobserv: 'pratika@15'
+    register1:
+
+- sleep:
+    seconds:'3'

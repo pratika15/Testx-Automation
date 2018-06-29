@@ -1,0 +1,31 @@
+- go to:
+    url: https://observ.nu/opdrachten/
+
+- set:
+    emaillogin: 'navneetkumar@eonicslabs.com'
+    passwordlogin: 'Abcd@1234'
+    loginobserv:
+
+- sleep:
+    seconds:'3'
+
+- wait to appear:
+    el1: loggedin
+
+
+- sleep:
+    seconds: '4'
+
+- set:
+    loggedin:
+
+- wait to appear:
+    el1: loggedout
+
+
+- set:
+    loggedout:
+
+
+
+

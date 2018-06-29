@@ -1,0 +1,31 @@
+- go to:
+    url: https://www.amazon.in/
+
+- wait to appear:
+    el1: signupLink
+
+- set:
+    signupLink:
+
+- wait to appear:
+    el1: createAccount
+
+- sleep:
+    seconds: '4'
+
+- set:
+    email: 'pratikabhanu@gmail.com'
+    continue:
+
+- sleep:
+    seconds:'3'
+
+- wait to appear:
+    el1: password 
+
+- set:
+    password: 'pratika@15'
+    login:
+      
+- sleep:
+    seconds:'3'    
